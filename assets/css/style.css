@@ -578,7 +578,7 @@ section {
 
 /*--------------------------------------------------------------
 # Why Us
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .why-us {
   padding: 0;
 }
@@ -617,7 +617,7 @@ section {
 
 /*--------------------------------------------------------------
 # Our Clients
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .clients .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
@@ -639,6 +639,7 @@ section {
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #5cb874;
 }
+*/
 
 /*--------------------------------------------------------------
 # Services
@@ -831,6 +832,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(34, 34, 34, 0.6);
+  border-radius: 10px;
 }
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -1347,4 +1349,8 @@ h2 {
 .features p {
   font-size: 15px;
   font-weight: lighter;
+}
+.bmi-border {
+  border: 1px solid gray;
+  border-radius: 10px;
 }
