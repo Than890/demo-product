@@ -12,15 +12,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
 @font-face {
-  font-family: "Sagar";
+  font-family:  "Sagar", "Questrial";
   src: url("../font//Sagar//Release/MyanmarSagar.ttf") format("truetype"),
     url("../font/Sagar/Source/MyanmarSagar_volt.ttf") format("truetype"),
     url("../font/Sagar/Source/MyanmarSagar_add_latin_volt.ttf") format("truetype");
 }
 
-body {
-  font-family: "Sagar", "Questrial", "Arial Narrow", Arial, sans-serif;
-  color: #444444;
+:lang(en) {
+  font-family:  "Questrial",  "Arial Narrow", Arial, sans-serif;
+}
+
+:lang(my) {
+  font-family: "Sagar", "Arial Narrow", Arial, sans-serif;
 }
 
 a {
