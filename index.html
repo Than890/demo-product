@@ -58,9 +58,8 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">Green</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo me-auto rounded"><img src="assets/img/portfolio/Logo.png" alt="" class="img-fluid rounded" /></a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -177,15 +176,21 @@
             </div>
             <div class="bmi-border">
               <div class="row p-5 ">
-                <div class="col-md-4">
-                  <input type="number" class="form-control" placeholder="weight (kg)">
+                <div class="col-md-3">
+                  <input type="text" class="form-control" placeholder="weight (kg)" id="bmi_weight">
                 </div>
-                <div class="col-md-4">
-                  <input type="number" class="form-control" placeholder="height (cm)">
+                <div class="col-md-3">
+                  <input type="text" class="form-control" placeholder="height (cm)" id="bmi_height">
                 </div>
-                <div class="col-md-4">
-                  <input type="number" class="form-control" placeholder="BMI">
+                <div class="col-md-3">
+                  <h4>BMI RESULT</h4>
+                  <div id="bmi_result">
+                  </div>
                 </div>
+                <div class="col-md-3">
+                  <button type="button" class="btn btn-success" id="btn">Calculate BMI</button>
+                </div>
+
               </div>
             </div>
           </form>
@@ -728,6 +733,7 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 

@@ -128,7 +128,8 @@ a:hover {
   color: #5cb874;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 70px;
+  width: 100%;
 }
 
 .scrolled-offset {
@@ -1351,6 +1352,6 @@ h2 {
   font-weight: lighter;
 }
 .bmi-border {
-  border: 1px solid gray;
+  border: 2px solid whitesmoke;
   border-radius: 10px;
 }
