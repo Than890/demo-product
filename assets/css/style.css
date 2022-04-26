@@ -18,11 +18,11 @@
     url("../font/Sagar/Source/MyanmarSagar_add_latin_volt.ttf") format("truetype");
 }
 
-:lang(en) {
+.lang-en {
   font-family:  "Questrial",  "Arial Narrow", Arial, sans-serif;
 }
 
-:lang(my) {
+.lang-my {
   font-family: "Sagar", "Arial Narrow", Arial, sans-serif;
 }
 
