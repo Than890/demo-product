@@ -9,13 +9,16 @@
 # General
 --------------------------------------------------------------*/
 
-@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
-
 @font-face {
-  font-family:  "Sagar", "Questrial";
+  font-family:"Sagar";
   src: url("../font//Sagar//Release/MyanmarSagar.ttf") format("truetype"),
     url("../font/Sagar/Source/MyanmarSagar_volt.ttf") format("truetype"),
     url("../font/Sagar/Source/MyanmarSagar_add_latin_volt.ttf") format("truetype");
+}
+
+@font-face {
+  font-family:"Questrial";
+  src: url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 }
 
 .lang-en {
