@@ -63,7 +63,6 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" /></li>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
@@ -88,83 +87,57 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><input class="getstarted " placeholder="Search" /></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
-
-        <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
-          <div class="carousel-container">
-            <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Green</span></h2>
-              <p class="animate__animated animate__fadeInUp">သီဟိုဠ်မှ ဉာဏ်ကြီးရှင်သည် အာယုဝဍ္ဎနဆေးညွှန်းစာကို ဇလွန်ဈေးဘေး ဗာဒံပင်ထက် အဓိဋ္ဌာန်လျက် ဂဃနဏဖတ်ခဲ့သည်။</p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-            </div>
-          </div>
-        </div>
-    </header>
-    <!-- End Header -->
-
     <!-- ======= Hero Section ======= -->
     <section id="hero">
-        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide" data-bs-ride="carousel">
 
-            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-            <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner" role="listbox">
 
-                <!-- Slide 1 -->
-                <div class="carousel-item active" style="background-image: url(assets/img/slide/product.png)">
-                    <div class="carousel-container">
-                        <div class="container">
-                            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Green</span></h2>
-                            <p class="animate__animated animate__fadeInUp">We're expecting you for new employee orientation on (Date), Tuesday at 9 a.m. You will meet with me to discuss your successful integration into our company and with Human Resources staff to learn about employment-related issues.
-                                You'll also meet with several co-workers so you can get a feel for the overall work of the department. Our dress code is casual.</p>
-                                <p class="animate__animated animate__fadeInUp">သီဟိုဠ်မှ ဉာဏ်ကြီးရှင်သည် အာယုဝဍ္ဎနဆေးညွှန်းစာကို ဇလွန်ဈေးဘေး ဗာဒံပင်ထက် အဓိဋ္ဌာန်လျက် ဂဃနဏဖတ်ခဲ့သည်။</p>
-                                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-                        </div>
-                    </div>
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="carousel-container">
+                    <img src="assets/img/portfolio/product.png"/>
                 </div>
-
-                <!-- Slide 2 -->
-                <div class="carousel-item" style="background-image: url(assets/img/slide/product.png)">
-                    <div class="carousel-container">
-                        <div class="container">
-                            <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                            <p class="animate__animated animate__fadeInUp">We're expecting you for new employee orientation on (Date), Tuesday at 9 a.m. You will meet with me to discuss your successful integration into our company and with Human Resources staff to learn about employment-related issues.
-                                You'll also meet with several co-workers so you can get a feel for the overall work of the department. Our dress code is casual.</p>
-                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 3 -->
-                <div class="carousel-item" style="background-image: url(assets/img/slide/product.png)">
-                    <div class="carousel-container">
-                        <div class="container">
-                            <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                            <p class="animate__animated animate__fadeInUp">We're expecting you for new employee orientation on (Date), Tuesday at 9 a.m. You will meet with me to discuss your successful integration into our company and with Human Resources staff to learn about employment-related issues.
-                                You'll also meet with several co-workers so you can get a feel for the overall work of the department. Our dress code is casual.</p>
-                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
-            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-            </a>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="carousel-container">
+                  <div class="carousel-container">
+                    <img src="assets/img/portfolio/product.png"/>
+                  </div>
+                </div>
+            </div>
 
-            <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-            </a>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <div class="carousel-container">
+                  <div class="carousel-container">
+                    <img src="assets/img/portfolio/product.png"/>
+                  </div>
+                </div>
+            </div>
 
         </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+    </div>
     </section>
     <!-- End Hero -->
     <section>
@@ -188,7 +161,7 @@
                   </div>
                 </div>
                 <div class="col-md-3">
-                  <button type="button" class="btn btn-success" id="btn">Calculate BMI</button>
+                  <button type="button" class="btn custom_color" id="btn" style="color: white;">Calculate BMI</button>
                 </div>
 
               </div>
@@ -461,47 +434,57 @@
 
                 <div class="row portfolio-container">
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-3 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/product.png" class="img-fluid img-alt" alt="">
-                            <div class="portfolio-info">
-                                <h4>Card 2</h4>
-                                <p>Card</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/product.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
+
+                        </div>
+                        <div class="portfolio-info">
+                          <h4>Glucomeal</h4>
+                          <h5>12000 MMK</h5>
+                          <div class="portfolio-links">
+                              <button class="btn custom_color"><a href="portfolio-details.html" title="More Details" style="color: white;">View Detail</a></button>
+                          </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-3 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/product.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Card 1</h4>
-                                <p>Card</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/product.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                          <h4>Glucomeal</h4>
+                          <h5>12000 MMK</h5>
+                          <div class="portfolio-links">
+                              <button class="btn custom_color"><a href="portfolio-details.html" title="More Details" style="color: white;">View Detail</a></button>
+                          </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-3 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/product.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Card 3</h4>
-                                <p>Card</p>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/product.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                          <h4>Glucomeal</h4>
+                          <h5>12000 MMK</h5>
+                          <div class="portfolio-links">
+                              <button class="btn custom_color"><a href="portfolio-details.html" title="More Details" style="color: white;">View Detail</a></button>
+                          </div>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/portfolio/product.png" class="img-fluid" alt="">
+                      </div>
+                      <div class="portfolio-info">
+                        <h4>Glucomeal</h4>
+                        <h5>12000 MMK</h5>
+                        <div class="portfolio-links">
+                            <button class="btn custom_color"><a href="portfolio-details.html" title="More Details" style="color: white;">View Detail</a></button>
+                        </div>
+                      </div>
+                  </div>
 
 
                 </div>
@@ -521,8 +504,7 @@
                         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('assets/img/portfolio/product.png');">
                             <div class="card-category">Shop-1</div>
                             <div class="card-description">
-                                <h2>Bokalay Street</h2>
-                                <p>Yangon</p>
+                                <p>Bokalay Street,Yangon</p>
                             </div>
                             <a class="card-link" href="branch-detail.html" title="Shop Details"></a>
                         </div>
@@ -531,8 +513,7 @@
                         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('assets/img/portfolio/product.png');">
                             <div class="card-category">Shop-2</div>
                             <div class="card-description">
-                                <h2>Boaungkyaw Street</h2>
-                                <p>Yangon</p>
+                                <p>Boaungkyaw Street, Yangon</p>
                             </div>
                             <a class="card-link" href="branch-detail.html" title="Shop Details"></a>
                         </div>
@@ -541,8 +522,7 @@
                         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('assets/img/portfolio/product.png');">
                             <div class="card-category">Shop-3</div>
                             <div class="card-description">
-                                <h2>Pansoetan Street</h2>
-                                <p>Yangon</p>
+                                <p>Pansoetan Street, Yangon</p>
                             </div>
                             <a class="card-link" href="branch-detail.html" title="Shop Details"></a>
                         </div>
@@ -699,7 +679,7 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="container">
-            <h3>Green</h3>
+            <h3>Glucomeal</h3>
             <p>A web page on an eCommerce site that presents the description of a specific product in view.</p>
             <div class="social-links">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -709,15 +689,15 @@
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
             <div class="copyright">
-                &copy; Copyright <strong><span>Green</span></strong>. All Rights Reserved
+                &copy; Copyright. All Rights Reserved
             </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
+            <!-- <div class="credits">
+                All the links in the footer should remain intact. -->
                 <!-- You can delete the links only if you purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/green-free-one-page-bootstrap-template/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/green-free-one-page-bootstrap-template/ 
                 Designed by <a href="https://bootstrapmade.com/">Sample</a>
-            </div>
+            </div> -->
         </div>
     </footer>
     <!-- End Footer -->
