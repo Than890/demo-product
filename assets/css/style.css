@@ -32,7 +32,7 @@ a {
 }
 
 a:hover {
-  color: #80c792;
+  color: #204B8F;
   text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ a:hover {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #78c48c;
+  background: #204B8F;
   color: #fff;
 }
 .back-to-top.active {
